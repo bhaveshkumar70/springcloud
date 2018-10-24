@@ -1,0 +1,14 @@
+eureka:
+  instance:
+    statusPageUrl: https://${eureka.hostname}/info
+    healthCheckUrl: https://${eureka.hostname}/health
+    homePageUrl: https://${eureka.hostname}/
+
+  client:
+    fetch-registry: false
+    healthcheck:
+      enabled: true    
+     
+spring:
+   jmx:
+    enabled=false
