@@ -1,0 +1,11 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "org.service.discovery.client.ServiceApplication",
+      "name": "",
+      "type": "org.service.discovery.client.ServiceApplication"
+    }
+  ],
+  "properties": []
+}
